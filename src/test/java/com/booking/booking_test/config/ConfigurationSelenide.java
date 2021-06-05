@@ -19,6 +19,7 @@ public class ConfigurationSelenide {
     @BeforeEach
     public void setUp() {
         Configuration.startMaximized = true;
+        Configuration.baseUrl = "https://booking.com/";
         open("https://booking.com/");
     }
 }

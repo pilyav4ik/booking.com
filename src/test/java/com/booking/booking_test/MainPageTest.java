@@ -18,7 +18,7 @@ public class MainPageTest {
 
         mainPage.searchField.sendKeys("Valencia");
         mainPage.searchButton.click();
-        mainPage.header.shouldHave(visible);
+        mainPage.linkValencia.shouldHave(visible);
         mainPage.input.shouldHave(visible);
     }
 
